@@ -154,7 +154,7 @@ footer {
   font-size: 14px;
 }
 
-/* RESPONSIVE (iPhone) */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .navbar ul {
     display: none;
