@@ -169,3 +169,36 @@ footer {
     max-width: 320px;
   }
 }
+
+/* MENÚ HAMBURGUESA */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* MODO MÓVIL */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #0b5ed7;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
